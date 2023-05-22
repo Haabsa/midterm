@@ -7,15 +7,16 @@
     <title>Question one</title>
 </head>
 <body>
-    
-    <label for="entry">Entry:</label>
-    <input type="text"id="entry"><br> <br>
-    <button onclick="addEntry">Add Entry</button>
-    <button onclick="summary">Summary</button>
+    <form id="assistance">
+    <label for="entryInput">Entry:</label>
+    <input type="text"id="entryInput"><br> <br>
+    <button type="button" id="addEntryBtn">Add Entry</button>
+    <button type="button" id="summaryBtn">Summary</button>
+</form>
     <h2>Entries:</h2>
-    <ul id="entries"></ul>
+    <ul id="entriesList"></ul>
     <h2>Summary:</h2>
-    <pre id="summary"></pre>
+    <ul id="summaryList"></ul>
     
     <script src="form1.js"></script>
 </body>
